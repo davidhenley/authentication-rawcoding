@@ -2,12 +2,11 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Basics.Controllers
 {
-    public class Home : Controller
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
